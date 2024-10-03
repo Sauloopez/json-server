@@ -1,4 +1,59 @@
 {
+  "content_types": {
+    "content_types": [
+      {
+        "id": 1,
+        "app_label": "auth",
+        "model": "permission"
+      },
+      {
+        "id": 2,
+        "app_label": "auth",
+        "model": "group"
+      },
+      {
+        "id": 3,
+        "app_label": "auth",
+        "model": "user"
+      },
+      {
+        "id": 4,
+        "app_label": "contenttypes",
+        "model": "contenttype"
+      },
+      {
+        "id": 5,
+        "app_label": "sessions",
+        "model": "session"
+      },
+      {
+        "id": 6,
+        "app_label": "at_auth",
+        "model": "profile"
+      },
+      {
+        "id": 7,
+        "app_label": "at_auth",
+        "model": "socialnetwork"
+      },
+      {
+        "id": 8,
+        "app_label": "at_auth",
+        "model": "residence"
+      },
+      {
+        "id": 9,
+        "app_label": "at_auth",
+        "model": "module"
+      },
+      {
+        "id": 10,
+        "app_label": "at_auth",
+        "model": "modulepermission"
+      }
+    ],
+    "permission_types": ["view", "change", "delete", "add"]
+  },
   "groups": [
     {
       "name": "otro grupo de ejemplo",
