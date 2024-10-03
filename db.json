@@ -1,14 +1,163 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "groups": [
+    {
+      "name": "otro grupo de ejemplo",
+      "id": 3,
+      "permissions": [
+        {
+          "codename": "add_permission",
+          "id": 1
+        },
+        {
+          "codename": "change_permission",
+          "id": 2
+        }
+      ],
+      "user_set": [
+        {
+          "id": 1,
+          "username": "usuario1"
+        }
+      ],
+      "module_permissions": null
+    },
+    {
+      "name": "otro grupo",
+      "id": 6,
+      "permissions": [
+        {
+          "codename": "add_permission",
+          "id": 1
+        },
+        {
+          "codename": "change_permission",
+          "id": 2
+        }
+      ],
+      "user_set": [
+        {
+          "id": 1,
+          "username": "usuario1"
+        }
+      ],
+      "module_permissions": null
+    },
+    {
+      "name": "grupito x",
+      "id": 5,
+      "permissions": [
+        {
+          "codename": "view_group",
+          "id": 8
+        },
+        {
+          "codename": "add_permission",
+          "id": 1
+        },
+        {
+          "codename": "change_permission",
+          "id": 2
+        }
+      ],
+      "user_set": [
+        {
+          "id": 1,
+          "username": "usuario1"
+        }
+      ],
+      "module_permissions": null
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "last_name": "lopecillo",
+      "first_name": "sauleta",
+      "username": "usuario1",
+      "is_staff": false,
+      "id": 1,
+      "email": "saulo@co",
+      "is_active": true,
+      "date_joined": "2024-09-13 22:07:22.149454+00:00",
+      "profile": {
+        "primary_email": null,
+        "second_surname": "Bermudez",
+        "residence": {
+          "country": "Colombia",
+          "state": "Meta"
+        },
+        "social_networks": [
+          {
+            "username": "saulito",
+            "link": "https://facebook.com/saulopez",
+            "id": 3
+          },
+          {
+            "username": "saulito",
+            "link": "https://facebook.com/saulopez",
+            "id": 4
+          },
+          {
+            "username": "saulito",
+            "link": "https://facebook.com/saulopez",
+            "id": 5
+          }
+        ]
+      },
+      "groups": [
+        {
+          "id": 3,
+          "name": "otro grupo de ejemplo"
+        },
+        {
+          "id": 6,
+          "name": "otro grupo"
+        },
+        {
+          "id": 5,
+          "name": "grupito x"
+        }
+      ],
+      "module_permissions": null,
+      "user_permissions": [
+        {
+          "codename": "add_permission",
+          "id": 1,
+          "content_type": {
+            "id": 1,
+            "model": "permission"
+          }
+        },
+        {
+          "codename": "change_permission",
+          "id": 2,
+          "content_type": {
+            "id": 1,
+            "model": "permission"
+          }
+        },
+        {
+          "codename": "delete_permission",
+          "id": 3,
+          "content_type": {
+            "id": 1,
+            "model": "permission"
+          }
+        }
+      ]
+    },
+    {
+      "last_name": "",
+      "first_name": "",
+      "username": "saulopez",
+      "is_staff": true,
+      "id": 27,
+      "email": "sauleta.selb@gmail.com",
+      "is_active": true,
+      "date_joined": "2024-10-02 03:29:19.342247+00:00",
+      "profile": null,
+      "groups": null,
+      "module_permissions": null,
+      "user_permissions": null
+    }
+  ]
 }
